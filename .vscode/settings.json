@@ -1,0 +1,29 @@
+{
+  "editor.formatOnSave": false,
+  "editor.rulers": [
+   {
+      "color": "blue",
+      "column": 79
+   },
+   {
+      "color": "red",
+      "column": 99
+   }
+  ],
+  "black-formatter.args":[
+    "--config ${workspaceFolder}/.black.toml"
+  ],
+  // "pylint.args": ["--disable=missing-class-docstring"],
+//   "pylint.enabled": false,
+  // "python.linting.flake8Enabled":true,
+  "[python]": {
+
+    "editor.codeActionsOnSave":{
+      "source.organizeImports": "explicit"
+    }
+
+
+},
+"python.linting.mypyEnabled": true
+
+}

@@ -1,0 +1,4 @@
+[tool.ruff.isort]
+force_grid_wrap=2
+line_length=99
+profile = "black"
