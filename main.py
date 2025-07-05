@@ -2,7 +2,7 @@
 
 
 def main():
-    """Demonstrate basic print  statements."""
+    """Demonstrate basic print statements."""
     print("syntax error")
     hey = "hello"
     print(hey + "hello")

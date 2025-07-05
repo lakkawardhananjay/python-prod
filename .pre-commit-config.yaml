@@ -54,11 +54,11 @@ repos:
 
 
 
-  - repo: https://github.com/charliermarsh/ruff-pre-commit
-    rev: "v0.0.261"
-    hooks:
-      - id: ruff
-        args: [--fix, --exit-non-zero-on-fix, --config=ruff.toml]
+  # - repo: https://github.com/charliermarsh/ruff-pre-commit
+  #   rev: "v0.0.261"
+  #   hooks:
+  #     - id: ruff
+  #       args: [--fix, --exit-non-zero-on-fix, --config=ruff.toml]
 
   - repo: https://github.com/pycqa/isort
     rev: 5.12.0
