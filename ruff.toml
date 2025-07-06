@@ -1,4 +1,4 @@
 [isort]
-force_grid_wrap=2
-line_length=99
 profile = "black"
+line_length = 99
+force_single_line = false
